@@ -16,7 +16,7 @@ The web app exposes a `/health` endpoint to verify database connectivity and int
 ### 1. Clone the Repository
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/Reinhardbett/partner-support-assessment
 cd Partner_Support_Engineer_Assessment
 ```
 
