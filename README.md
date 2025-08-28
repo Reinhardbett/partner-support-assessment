@@ -22,22 +22,22 @@ cd Partner_Support_Engineer_Assessment
 
 ### 2. Configure Environment Variables
 
-- Copy the provided `.env.example` files (or see below) to `.env` in the appropriate directories.
+- Copy the provided example files (see below) to `.env` in the appropriate directories.
 - **Do not commit your `.env` files to version control.**
 
 #### Example: `db/.env`
 ```
-POSTGRES_USER=user
-POSTGRES_PASSWORD=pass
-POSTGRES_DB=appdb
+POSTGRES_USER=your-user-name
+POSTGRES_PASSWORD=your-password
+POSTGRES_DB=your-database-name
 ```
 
 #### Example: `web-app/.env`
 ```
-DB_USER=user
-DB_PASSWORD=pass
-DB_NAME=appdb
-DB_HOST=db-service
+DB_USER=your-user-name
+DB_PASSWORD=your-password
+DB_NAME=your-database-name
+DB_HOST=your-db-service
 DB_PORT=5432
 ```
 
